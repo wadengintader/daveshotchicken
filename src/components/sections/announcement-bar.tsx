@@ -31,7 +31,7 @@ const AnnouncementBar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-[#005da6] border-b border-[#005da6]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
+    <div className="sticky top-0 z-50 w-full bg-[#232323] border-b border-[#232323]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
       {/* Sparkle Icons Overlay */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-20">
         <Sparkles 
@@ -53,12 +53,12 @@ const AnnouncementBar = () => {
                 className="w-3.5 h-3.5 text-[#ffffff] animate-pulse shrink-0" 
                 strokeWidth={2.5}
               />
-              <p className="text-[#ffffff] text-[12px] font-bold tracking-tight text-center">
+              <p className="text-[#ffffff] text-[11px] font-bold tracking-tight text-center">
                 You have{" "}
                 <span className="text-[#ffffff] tabular-nums font-black">
                   {formatTime(timeLeft)}
                 </span>{" "}
-                minutes left to unlock your 7 Brew reward
+                minutes left to unlock your Dave's Hot Chicken reward
               </p>
             </div>
         </div>
